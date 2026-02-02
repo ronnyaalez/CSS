@@ -15,7 +15,7 @@ h1 {
 .sub-title {
   font-size: 16px;
   text-align: center;
-  color: rgb(235, 13, 13);
+  color: rgb(126, 4, 4);
 }
 
 .second-paragraph {
@@ -26,7 +26,7 @@ h1 {
 h1,
 .sub-title {
   font-family: Arial, sans-serif;
-  color: green;
+  color: rgb(128, 185, 128);
 }
 
 [target] {
@@ -42,4 +42,11 @@ nav a {
 
 nav a:hover {
   color: rgb(138, 18, 108);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 25px;
+  margin: 20px auto;
 }
