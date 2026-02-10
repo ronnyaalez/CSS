@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet&Us | Cuidado de mascotas en España</title>
+    <link rel="stylesheet" href="/base.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="/index.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">Pet<span>&Us</span></div>
+            <ul class="nav-links">
+                <li><a href="#">Buscar Casas</a></li>
+                <li><a href="#">Ser Cuidador</a></li>
+                <li><a href="#" class="btn-login">Iniciar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Cuidamos tu casa, <br>amamos a tu mascota.</h1>
+            <p>Encuentra cuidadores de confianza en toda España.</p>
+            <div class="search-bar">
+                <input type="text" id="citySearch" placeholder="¿En qué ciudad buscas?">
+                <button onclick="buscar()">Buscar</button>
+            </div>
+        </div>
+    </section>
+
+    <main class="container">
+        <h2>Casas disponibles en España</h2>
+        <div class="grid" id="grid-casas">
+            </div>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
